@@ -45,6 +45,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 - [NIP-26: Delegated Event Signing](26.md)
 - [NIP-27: Text Note References](27.md)
 - [NIP-28: Public Chat](28.md)
+- [NIP-29: Relay-based Groups](29.md)
 - [NIP-30: Custom Emoji](30.md)
 - [NIP-31: Dealing with Unknown Events](31.md)
 - [NIP-32: Labeling](32.md)
@@ -87,6 +88,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `6`           | Repost                     | [18](18.md)                        |
 | `7`           | Reaction                   | [25](25.md)                        |
 | `8`           | Badge Award                | [58](58.md)                        |
+| `9`           | Group Chat Message         | [29](29.md)                        |
 | `16`          | Generic Repost             | [18](18.md)                        |
 | `40`          | Channel Creation           | [28](28.md)                        |
 | `41`          | Channel Metadata           | [28](28.md)                        |
@@ -103,6 +105,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `5000`-`5999` | Job Request                | [90](90.md)                        |
 | `6000`-`6999` | Job Result                 | [90](90.md)                        |
 | `7000`        | Job Feedback               | [90](90.md)                        |
+| `9000`-`9030` | Group Control Events       | [29](29.md)                        |
 | `9041`        | Zap Goal                   | [75](75.md)                        |
 | `9734`        | Zap Request                | [57](57.md)                        |
 | `9735`        | Zap                        | [57](57.md)                        |
